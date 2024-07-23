@@ -198,16 +198,39 @@ aside li i {
 
 .about-us {
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 100px;
   color: white;
   overflow: auto;
+  background-color: #212529; /* Cor de fundo para destacar a seção */
+  resize: both; /* Permite redimensionamento */
 }
 
 .heading {
   padding: 20px 10px;
   font-size: 2.5rem;
   color: #80ed99;
+  text-align: center; /* Centraliza o título */
+}
+
+.about-us p {
+  font-size: 1.2rem; /* Tamanho da fonte para o texto */
+  line-height: 1.6; /* Espaçamento entre linhas */
+  margin: 20px 0; /* Margem para espaçamento vertical */
+  text-align: justify; /* Justifica o texto */
+}
+
+.about-us .mission,
+.about-us .vision {
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 20px; /* Espaçamento interno */
+  margin: 20px 0; /* Margem vertical */
+}
+
+.about-us .mission h2,
+.about-us .vision h2 {
+  color: #80ed99; /* Cor do título das subseções */
 }
 
 .services {
@@ -420,41 +443,6 @@ footer a {
 
 footer a:hover {
   color: #85f69f;
-}
-.about-us {
-  width: 100%;
-  height: auto;
-  padding: 100px;
-  color: white;
-  overflow: auto;
-  background-color: #212529; /* Cor de fundo para destacar a seção */
-}
-
-.heading {
-  padding: 20px 10px;
-  font-size: 2.5rem;
-  color: #80ed99;
-  text-align: center; /* Centraliza o título */
-}
-
-.about-us p {
-  font-size: 1.2rem; /* Tamanho da fonte para o texto */
-  line-height: 1.6; /* Espaçamento entre linhas */
-  margin: 20px 0; /* Margem para espaçamento vertical */
-  text-align: justify; /* Justifica o texto */
-}
-
-.about-us .mission,
-.about-us .vision {
-  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
-  border-radius: 10px; /* Bordas arredondadas */
-  padding: 20px; /* Espaçamento interno */
-  margin: 20px 0; /* Margem vertical */
-}
-
-.about-us .mission h2,
-.about-us .vision h2 {
-  color: #80ed99; /* Cor do título das subseções */
 }
 
 @media (max-width: 768px) {
